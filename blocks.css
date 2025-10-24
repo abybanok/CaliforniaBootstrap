@@ -6,12 +6,28 @@
   box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3) !important;
 }
 
-.custom-tooltip .tooltip-arrow::before {
+.custom-tooltip.bs-tooltip-top .tooltip-arrow::before {
+  border-top-color: #ffffff !important;
+}
+
+.custom-tooltip.bs-tooltip-bottom .tooltip-arrow::before {
   border-bottom-color: #ffffff !important;
+}
+
+.custom-tooltip.bs-tooltip-end .tooltip-arrow::before {
+  border-right-color: #ffffff !important;
+}
+
+.custom-tooltip.bs-tooltip-start .tooltip-arrow::before {
+  border-left-color: #ffffff !important;
 }
 
 .bg-primary .invalid-feedback {
   color: #ffaeae !important;
   font-weight: bold;
   opacity: 0.9;
+}
+
+.accordion-button::after {
+  filter: invert(1) brightness(100);
 }/*# sourceMappingURL=blocks.css.map */
